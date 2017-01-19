@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet href="folia2html.xsl" type="text/xsl"?>
+<FoLiA xmlns="http://ilk.uvt.nl/folia">
+  <metadata type="native">
+    <annotations>
+      <token-annotation annotator="proycon" annotatortype="manual"/>
+      <phonological-annotation annotator="proycon" annotatortype="manual" set="adhoc"/>
+      <morphological-annotation annotator="proycon" annotatortype="manual" set="adhoc"/>
+      <pos-annotation annotator="proycon" annotatortype="manual" set="adhoc"/>
+      <lemma-annotation annotator="tadpole" annotatortype="manual" set="lemmas-nl"/>
+      <entity-annotation annotator="proycon" annotatortype="manual" set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/namedentities.foliaset.xml"/>
+    </annotations>
+    <meta id="language">en</meta>
+  </metadata>
+  <text xml:id="e1">
+    <div xml:id="w12aab2b1b1">
+      <p xml:id="w12aab2b1b1b1">
+        <s xml:id="e12">
+          <w xml:id="w.0">
+            <t>Brazil</t>
+            <pos annotator="nawwar" class="NNP" datetime="2017-01-08T22:34:37"/>
+            <lemma annotator="nawwar" class="Brazil" datetime="2017-01-08T23:30:00"/>
+          </w>
+          <w xml:id="w.1">
+            <t>officially</t>
+            <pos annotator="nawwar" class="RB" datetime="2017-01-08T22:35:58"/>
+            <lemma annotator="nawwar" class="officially" datetime="2017-01-08T23:30:36"/>
+          </w>
+          <w xml:id="w.2">
+            <t>called</t>
+            <pos annotator="nawwar" class="VBD" datetime="2017-01-08T22:36:16"/>
+            <lemma annotator="nawwar" class="call" datetime="2017-01-08T23:30:54"/>
+          </w>
+          <w xml:id="w.3">
+            <t>Federative</t>
+            <pos annotator="nawwar" class="JJ" datetime="2017-01-08T22:36:53"/>
+            <lemma annotator="nawwar" class="federative" datetime="2017-01-08T23:31:15"/>
+          </w>
+          <w xml:id="w.4">
+            <t>Republic</t>
+            <pos annotator="nawwar" class="NN" datetime="2017-01-08T22:37:43"/>
+            <lemma annotator="nawwar" class="Republic" datetime="2017-01-08T23:31:28"/>
+          </w>
+          <w xml:id="w.5">
+            <t>of</t>
+            <pos annotator="nawwar" class="IN" datetime="2017-01-08T22:38:44"/>
+            <lemma annotator="nawwar" class="of" datetime="2017-01-08T23:31:40"/>
+          </w>
+          <w xml:id="w.6">
+            <t>Brazil</t>
+            <pos annotator="nawwar" class="NNP" datetime="2017-01-08T22:39:20"/>
+            <lemma annotator="nawwar" class="Brazil" datetime="2017-01-08T23:31:50"/>
+          </w>
+          <w xml:id="pc.000001">
+            <t>.</t>
+            <pos class="post"/>
+          </w>
+          <entities>
+            <entity annotator="nawwar" class="loc.country" datetime="2017-01-08T22:34:37" xml:id="e1.entity.1">
+              <wref t="Brazil" id="w.0"/>
+            </entity>
+            <entity annotator="nawwar" class="loc" datetime="2017-01-08T22:36:53" xml:id="e1.entity.2">
+              <wref t="Federative" id="w.3"/>
+            </entity>
+            <entity annotator="nawwar" class="loc" datetime="2017-01-08T22:37:43" xml:id="e1.entity.3">
+              <wref t="Republic" id="w.4"/>
+            </entity>
+            <entity annotator="nawwar" class="loc" datetime="2017-01-08T22:38:44" xml:id="e1.entity.4">
+              <wref t="of" id="w.5"/>
+            </entity>
+            <entity annotator="nawwar" class="loc" datetime="2017-01-08T22:39:20" xml:id="e1.entity.5">
+              <wref t="Brazil" id="w.6"/>
+            </entity>
+          </entities>
+        </s>
+        <s xml:id="e21">
+          <w xml:id="w.7">
+            <t>It</t>
+            <lemma annotator="nawwar" class="it" datetime="2017-01-08T23:32:39"/>
+            <pos annotator="nawwar" class="PRP" datetime="2017-01-08T23:32:39"/>
+          </w>
+          <w xml:id="w.8">
+            <t>is</t>
+            <lemma annotator="nawwar" class="be" datetime="2017-01-08T23:33:41"/>
+            <pos annotator="nawwar" class="VBZ" datetime="2017-01-08T23:33:41"/>
+          </w>
+          <w xml:id="w.9">
+            <t>a</t>
+            <lemma annotator="nawwar" class="a" datetime="2017-01-08T23:34:04"/>
+            <pos annotator="nawwar" class="DT" datetime="2017-01-08T23:34:04"/>
+          </w>
+          <w xml:id="w.10">
+            <t>country</t>
+            <lemma annotator="nawwar" class="country" datetime="2017-01-08T23:34:42"/>
+            <pos annotator="nawwar" class="NN" datetime="2017-01-08T23:34:42"/>
+          </w>
+          <w xml:id="w.11">
+            <t>in</t>
+            <lemma annotator="nawwar" class="in" datetime="2017-01-08T23:35:15"/>
+            <pos annotator="nawwar" class="IN" datetime="2017-01-08T23:35:15"/>
+          </w>
+          <w xml:id="w.12">
+            <t>South</t>
+            <lemma annotator="nawwar" class="South" datetime="2017-01-08T23:36:22"/>
+            <pos annotator="nawwar" class="NNP" datetime="2017-01-08T23:36:22"/>
+          </w>
+          <w xml:id="w.13">
+            <t>America</t>
+            <lemma annotator="nawwar" class="America" datetime="2017-01-08T23:36:52"/>
+            <pos annotator="nawwar" class="NNP" datetime="2017-01-08T23:36:52"/>
+          </w>
+          <w xml:id="pc.000002">
+            <t>.</t>
+            <pos class="post"/>
+          </w>
+          <entities>
+            <entity annotator="nawwar" class="loc" datetime="2017-01-08T23:36:22" xml:id="e1.entity.6">
+              <wref t="South" id="w.12"/>
+            </entity>
+            <entity annotator="nawwar" class="loc" datetime="2017-01-08T23:36:52" xml:id="e1.entity.7">
+              <wref t="America" id="w.13"/>
+            </entity>
+          </entities>
+        </s>
+        <s xml:id="e30">
+          <w xml:id="w.14">
+            <t>The</t>
+          </w>
+          <w xml:id="w.15">
+            <t>country</t>
+          </w>
+          <w xml:id="w.16">
+            <t>has</t>
+          </w>
+          <w xml:id="w.17">
+            <t>about</t>
+          </w>
+          <w xml:id="w.18">
+            <t>209</t>
+          </w>
+          <w xml:id="w.19">
+            <t>million</t>
+          </w>
+          <w xml:id="w.20">
+            <t>people</t>
+          </w>
+          <w xml:id="pc.000003">
+            <t>.</t>
+            <pos class="post"/>
+          </w>
+        </s>
+        <s xml:id="e39">
+          <w xml:id="w.21">
+            <t>The</t>
+          </w>
+          <w xml:id="w.22">
+            <t>capital</t>
+          </w>
+          <w xml:id="w.23">
+            <t>of</t>
+          </w>
+          <w xml:id="w.24">
+            <t>Brazil</t>
+          </w>
+          <w xml:id="w.25">
+            <t>is</t>
+          </w>
+          <w xml:id="w.26">
+            <t>Brasilia</t>
+          </w>
+          <w xml:id="pc.000004">
+            <t>.</t>
+            <pos class="post"/>
+          </w>
+        </s>
+        <s xml:id="e47">
+          <w xml:id="w.27">
+            <t>In</t>
+          </w>
+          <w xml:id="w.28">
+            <t>1822</t>
+          </w>
+          <w xml:id="pc.000005">
+            <t>,</t>
+            <pos class="post"/>
+          </w>
+          <w xml:id="w.29">
+            <t>Brazil</t>
+          </w>
+          <w xml:id="w.30">
+            <t>claimed</t>
+          </w>
+          <w xml:id="w.31">
+            <t>to</t>
+          </w>
+          <w xml:id="w.32">
+            <t>be</t>
+          </w>
+          <w xml:id="w.33">
+            <t>its</t>
+          </w>
+          <w xml:id="w.34">
+            <t>own</t>
+          </w>
+          <w xml:id="w.35">
+            <t>country</t>
+          </w>
+          <w xml:id="w.36">
+            <t>and</t>
+          </w>
+          <w xml:id="w.37">
+            <t>not</t>
+          </w>
+          <w xml:id="w.38">
+            <t>a</t>
+          </w>
+          <w xml:id="w.39">
+            <t>part</t>
+          </w>
+          <w xml:id="w.40">
+            <t>of</t>
+          </w>
+          <w xml:id="w.41">
+            <t>Portugal</t>
+          </w>
+          <w xml:id="w.42">
+            <t>anymore</t>
+          </w>
+          <w xml:id="pc.000006">
+            <t>.</t>
+            <pos class="post"/>
+          </w>
+        </s>
+        <s xml:id="e66">
+          <w xml:id="w.43">
+            <t>Most</t>
+          </w>
+          <w xml:id="w.44">
+            <t>people</t>
+          </w>
+          <w xml:id="w.45">
+            <t>in</t>
+          </w>
+          <w xml:id="w.46">
+            <t>Brazil</t>
+          </w>
+          <w xml:id="w.47">
+            <t>speak</t>
+          </w>
+          <w xml:id="w.48">
+            <t>Portuguese</t>
+          </w>
+          <w xml:id="pc.000007">
+            <t>.</t>
+            <pos class="post"/>
+          </w>
+        </s>
+      </p>
+    </div>
+  </text>
+</FoLiA>

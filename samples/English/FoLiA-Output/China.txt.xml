@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="folia2html.xsl" type="text/xsl"?>
+<FoLiA xmlns="http://ilk.uvt.nl/folia">
+  <metadata>
+    <annotations>
+      <token-annotation annotator="CoreNLP" annotatortype="auto"/>
+      <phonological-annotation annotator="CoreNLP" annotatortype="auto"/>
+      <morphological-annotation annotator="CoreNLP" annotatortype="auto"/>
+      <pos-annotation annotator="CoreNLP" annotatortype="auto"/>
+      <lemma-annotation annotator="CoreNLP" annotatortype="auto"/>
+      <entity-annotation annotator="CoreNLP" annotatortype="auto"/>
+    </annotations>
+    <meta xml:id="language">en</meta>
+  </metadata>
+  <text>
+    <p xml:id="doc.p.1">
+      <s xml:id="doc.p.1.s.1">
+        <w xml:id="doc.p.1.s.1.w.1">
+          <t offset="0">China</t>
+          <lemma class="China"/>
+          <pos class="NNP" head="NNP"/>
+        </w>
+        <w xml:id="doc.p.1.s.1.w.2">
+          <t offset="6">is</t>
+          <lemma class="be"/>
+          <pos class="VBZ" head="VBZ"/>
+        </w>
+        <w xml:id="doc.p.1.s.1.w.3">
+          <t offset="9">a</t>
+          <lemma class="a"/>
+          <pos class="DT" head="DT"/>
+        </w>
+        <w xml:id="doc.p.1.s.1.w.4">
+          <t offset="11">cultural</t>
+          <lemma class="cultural"/>
+          <pos class="JJ" head="JJ"/>
+        </w>
+        <w xml:id="doc.p.1.s.1.w.5">
+          <t offset="20">region</t>
+          <lemma class="region"/>
+          <pos class="NN" head="NN"/>
+        </w>
+        <w xml:id="doc.p.1.s.1.w.6">
+          <t offset="26">,</t>
+          <lemma class=","/>
+          <pos class="," head=","/>
+        </w>
+        <w xml:id="doc.p.1.s.1.w.7">
+          <t offset="28">an</t>
+          <lemma class="a"/>
+          <pos class="DT" head="DT"/>
+        </w>
+        <w xml:id="doc.p.1.s.1.w.8">
+          <t offset="31">ancient</t>
+          <lemma class="ancient"/>
+          <pos class="JJ" head="JJ"/>
+        </w>
+        <w xml:id="doc.p.1.s.1.w.9">
+          <t offset="39">civilization</t>
+          <lemma class="civilization"/>
+          <pos class="NN" head="NN"/>
+        </w>
+        <w xml:id="doc.p.1.s.1.w.10">
+          <t offset="51">,</t>
+          <lemma class=","/>
+          <pos class="," head=","/>
+        </w>
+        <w xml:id="doc.p.1.s.1.w.11">
+          <t offset="53">and</t>
+          <lemma class="and"/>
+          <pos class="CC" head="CC"/>
+        </w>
+        <w xml:id="doc.p.1.s.1.w.12">
+          <t offset="57">a</t>
+          <lemma class="a"/>
+          <pos class="DT" head="DT"/>
+        </w>
+        <w xml:id="doc.p.1.s.1.w.13">
+          <t offset="59">nation</t>
+          <lemma class="nation"/>
+          <pos class="NN" head="NN"/>
+        </w>
+        <w xml:id="doc.p.1.s.1.w.14">
+          <t offset="66">in</t>
+          <lemma class="in"/>
+          <pos class="IN" head="IN"/>
+        </w>
+        <w xml:id="doc.p.1.s.1.w.15">
+          <t offset="69">East</t>
+          <lemma class="East"/>
+          <pos class="NNP" head="NNP"/>
+        </w>
+        <w xml:id="doc.p.1.s.1.w.16">
+          <t offset="74">Asia</t>
+          <lemma class="Asia"/>
+          <pos class="NNP" head="NNP"/>
+        </w>
+        <w xml:id="doc.p.1.s.1.w.17">
+          <t offset="78">.</t>
+          <lemma class="."/>
+          <pos class="." head="."/>
+        </w>
+        <entities xml:id="doc.p.1.s.1.entities.1">
+          <entity xml:id="doc.p.1.s.1.entities.1.entity.1" class="LOCATION">
+            <wref id="doc.p.1.s.1.w.1" t="China"/>
+          </entity>
+          <entity xml:id="doc.p.1.s.1.entities.1.entity.2" class="LOCATION">
+            <wref id="doc.p.1.s.1.w.15" t="East"/>
+          </entity>
+          <entity xml:id="doc.p.1.s.1.entities.1.entity.3" class="LOCATION">
+            <wref id="doc.p.1.s.1.w.16" t="Asia"/>
+          </entity>
+        </entities>
+      </s>
+      <s xml:id="doc.p.1.s.2">
+        <w xml:id="doc.p.1.s.2.w.1">
+          <t offset="80">With</t>
+          <lemma class="with"/>
+          <pos class="IN" head="IN"/>
+        </w>
+        <w xml:id="doc.p.1.s.2.w.2">
+          <t offset="85">a</t>
+          <lemma class="a"/>
+          <pos class="DT" head="DT"/>
+        </w>
+        <w xml:id="doc.p.1.s.2.w.3">
+          <t offset="87">population</t>
+          <lemma class="population"/>
+          <pos class="NN" head="NN"/>
+        </w>
+        <w xml:id="doc.p.1.s.2.w.4">
+          <t offset="98">of</t>
+          <lemma class="of"/>
+          <pos class="IN" head="IN"/>
+        </w>
+        <w xml:id="doc.p.1.s.2.w.5">
+          <t offset="101">over</t>
+          <lemma class="over"/>
+          <pos class="IN" head="IN"/>
+        </w>
+        <w xml:id="doc.p.1.s.2.w.6">
+          <t offset="106">1.381</t>
+          <lemma class="1.381"/>
+          <pos class="CD" head="CD"/>
+          <NormalizedNER class="&gt;$1.381E9"/>
+        </w>
+        <w xml:id="doc.p.1.s.2.w.7">
+          <t offset="112">billion</t>
+          <lemma class="billion"/>
+          <pos class="CD" head="CD"/>
+          <NormalizedNER class="&gt;$1.381E9"/>
+        </w>
+        <w xml:id="doc.p.1.s.2.w.8">
+          <t offset="119">,</t>
+          <lemma class=","/>
+          <pos class="," head=","/>
+        </w>
+        <w xml:id="doc.p.1.s.2.w.9">
+          <t offset="121">it</t>
+          <lemma class="it"/>
+          <pos class="PRP" head="PRP"/>
+        </w>
+        <w xml:id="doc.p.1.s.2.w.10">
+          <t offset="124">is</t>
+          <lemma class="be"/>
+          <pos class="VBZ" head="VBZ"/>
+        </w>
+        <w xml:id="doc.p.1.s.2.w.11">
+          <t offset="127">the</t>
+          <lemma class="the"/>
+          <pos class="DT" head="DT"/>
+        </w>
+        <w xml:id="doc.p.1.s.2.w.12">
+          <t offset="131">world</t>
+          <lemma class="world"/>
+          <pos class="NN" head="NN"/>
+        </w>
+        <w xml:id="doc.p.1.s.2.w.13">
+          <t offset="136">'s</t>
+          <lemma class="'s"/>
+          <pos class="POS" head="POS"/>
+        </w>
+        <w xml:id="doc.p.1.s.2.w.14">
+          <t offset="139">most</t>
+          <lemma class="most"/>
+          <pos class="RBS" head="RBS"/>
+        </w>
+        <w xml:id="doc.p.1.s.2.w.15">
+          <t offset="144">populous</t>
+          <lemma class="populous"/>
+          <pos class="JJ" head="JJ"/>
+        </w>
+        <w xml:id="doc.p.1.s.2.w.16">
+          <t offset="153">country</t>
+          <lemma class="country"/>
+          <pos class="NN" head="NN"/>
+        </w>
+        <w xml:id="doc.p.1.s.2.w.17">
+          <t offset="160">.</t>
+          <lemma class="."/>
+          <pos class="." head="."/>
+        </w>
+        <entities xml:id="doc.p.1.s.2.entities.1">
+          <entity xml:id="doc.p.1.s.2.entities.1.entity.1" class="MONEY">
+            <wref id="doc.p.1.s.2.w.6" t="1.381"/>
+          </entity>
+          <entity xml:id="doc.p.1.s.2.entities.1.entity.2" class="MONEY">
+            <wref id="doc.p.1.s.2.w.7" t="billion"/>
+          </entity>
+        </entities>
+      </s>
+      <s xml:id="doc.p.1.s.3">
+        <w xml:id="doc.p.1.s.3.w.1">
+          <t offset="162">The</t>
+          <lemma class="the"/>
+          <pos class="DT" head="DT"/>
+        </w>
+        <w xml:id="doc.p.1.s.3.w.2">
+          <t offset="166">state</t>
+          <lemma class="state"/>
+          <pos class="NN" head="NN"/>
+        </w>
+        <w xml:id="doc.p.1.s.3.w.3">
+          <t offset="172">is</t>
+          <lemma class="be"/>
+          <pos class="VBZ" head="VBZ"/>
+        </w>
+        <w xml:id="doc.p.1.s.3.w.4">
+          <t offset="175">governed</t>
+          <lemma class="govern"/>
+          <pos class="VBN" head="VBN"/>
+        </w>
+        <w xml:id="doc.p.1.s.3.w.5">
+          <t offset="184">by</t>
+          <lemma class="by"/>
+          <pos class="IN" head="IN"/>
+        </w>
+        <w xml:id="doc.p.1.s.3.w.6">
+          <t offset="187">the</t>
+          <lemma class="the"/>
+          <pos class="DT" head="DT"/>
+        </w>
+        <w xml:id="doc.p.1.s.3.w.7">
+          <t offset="191">Communist</t>
+          <lemma class="Communist"/>
+          <pos class="NNP" head="NNP"/>
+        </w>
+        <w xml:id="doc.p.1.s.3.w.8">
+          <t offset="201">Party</t>
+          <lemma class="Party"/>
+          <pos class="NNP" head="NNP"/>
+        </w>
+        <w xml:id="doc.p.1.s.3.w.9">
+          <t offset="207">of</t>
+          <lemma class="of"/>
+          <pos class="IN" head="IN"/>
+        </w>
+        <w xml:id="doc.p.1.s.3.w.10">
+          <t offset="210">China</t>
+          <lemma class="China"/>
+          <pos class="NNP" head="NNP"/>
+        </w>
+        <w xml:id="doc.p.1.s.3.w.11">
+          <t offset="216">based</t>
+          <lemma class="base"/>
+          <pos class="VBN" head="VBN"/>
+        </w>
+        <w xml:id="doc.p.1.s.3.w.12">
+          <t offset="222">in</t>
+          <lemma class="in"/>
+          <pos class="IN" head="IN"/>
+        </w>
+        <w xml:id="doc.p.1.s.3.w.13">
+          <t offset="225">the</t>
+          <lemma class="the"/>
+          <pos class="DT" head="DT"/>
+        </w>
+        <w xml:id="doc.p.1.s.3.w.14">
+          <t offset="229">capital</t>
+          <lemma class="capital"/>
+          <pos class="NN" head="NN"/>
+        </w>
+        <w xml:id="doc.p.1.s.3.w.15">
+          <t offset="237">of</t>
+          <lemma class="of"/>
+          <pos class="IN" head="IN"/>
+        </w>
+        <w xml:id="doc.p.1.s.3.w.16">
+          <t offset="240">Beijing</t>
+          <lemma class="Beijing"/>
+          <pos class="NNP" head="NNP"/>
+        </w>
+        <w xml:id="doc.p.1.s.3.w.17">
+          <t offset="247">.</t>
+          <lemma class="."/>
+          <pos class="." head="."/>
+        </w>
+        <entities xml:id="doc.p.1.s.3.entities.1">
+          <entity xml:id="doc.p.1.s.3.entities.1.entity.1" class="ORGANIZATION">
+            <wref id="doc.p.1.s.3.w.7" t="Communist"/>
+          </entity>
+          <entity xml:id="doc.p.1.s.3.entities.1.entity.2" class="ORGANIZATION">
+            <wref id="doc.p.1.s.3.w.8" t="Party"/>
+          </entity>
+          <entity xml:id="doc.p.1.s.3.entities.1.entity.3" class="ORGANIZATION">
+            <wref id="doc.p.1.s.3.w.9" t="of"/>
+          </entity>
+          <entity xml:id="doc.p.1.s.3.entities.1.entity.4" class="ORGANIZATION">
+            <wref id="doc.p.1.s.3.w.10" t="China"/>
+          </entity>
+          <entity xml:id="doc.p.1.s.3.entities.1.entity.5" class="LOCATION">
+            <wref id="doc.p.1.s.3.w.16" t="Beijing"/>
+          </entity>
+        </entities>
+      </s>
+      <s xml:id="doc.p.1.s.4">
+        <w xml:id="doc.p.1.s.4.w.1">
+          <t offset="249">Since</t>
+          <lemma class="since"/>
+          <pos class="IN" head="IN"/>
+        </w>
+        <w xml:id="doc.p.1.s.4.w.2">
+          <t offset="255">the</t>
+          <lemma class="the"/>
+          <pos class="DT" head="DT"/>
+        </w>
+        <w xml:id="doc.p.1.s.4.w.3">
+          <t offset="259">introduction</t>
+          <lemma class="introduction"/>
+          <pos class="NN" head="NN"/>
+        </w>
+        <w xml:id="doc.p.1.s.4.w.4">
+          <t offset="272">of</t>
+          <lemma class="of"/>
+          <pos class="IN" head="IN"/>
+        </w>
+        <w xml:id="doc.p.1.s.4.w.5">
+          <t offset="275">economic</t>
+          <lemma class="economic"/>
+          <pos class="JJ" head="JJ"/>
+        </w>
+        <w xml:id="doc.p.1.s.4.w.6">
+          <t offset="284">reforms</t>
+          <lemma class="reform"/>
+          <pos class="NNS" head="NNS"/>
+        </w>
+        <w xml:id="doc.p.1.s.4.w.7">
+          <t offset="292">in</t>
+          <lemma class="in"/>
+          <pos class="IN" head="IN"/>
+        </w>
+        <w xml:id="doc.p.1.s.4.w.8">
+          <t offset="295">1978</t>
+          <lemma class="1978"/>
+          <pos class="CD" head="CD"/>
+          <NormalizedNER class="1978"/>
+          <Timex tid="t1" type="DATE">1978</Timex>
+        </w>
+        <w xml:id="doc.p.1.s.4.w.9">
+          <t offset="299">,</t>
+          <lemma class=","/>
+          <pos class="," head=","/>
+        </w>
+        <w xml:id="doc.p.1.s.4.w.10">
+          <t offset="301">China</t>
+          <lemma class="China"/>
+          <pos class="NNP" head="NNP"/>
+        </w>
+        <w xml:id="doc.p.1.s.4.w.11">
+          <t offset="307">has</t>
+          <lemma class="have"/>
+          <pos class="VBZ" head="VBZ"/>
+        </w>
+        <w xml:id="doc.p.1.s.4.w.12">
+          <t offset="311">become</t>
+          <lemma class="become"/>
+          <pos class="VBN" head="VBN"/>
+        </w>
+        <w xml:id="doc.p.1.s.4.w.13">
+          <t offset="318">one</t>
+          <lemma class="one"/>
+          <pos class="CD" head="CD"/>
+          <NormalizedNER class="1.0"/>
+        </w>
+        <w xml:id="doc.p.1.s.4.w.14">
+          <t offset="322">of</t>
+          <lemma class="of"/>
+          <pos class="IN" head="IN"/>
+        </w>
+        <w xml:id="doc.p.1.s.4.w.15">
+          <t offset="325">the</t>
+          <lemma class="the"/>
+          <pos class="DT" head="DT"/>
+        </w>
+        <w xml:id="doc.p.1.s.4.w.16">
+          <t offset="329">world</t>
+          <lemma class="world"/>
+          <pos class="NN" head="NN"/>
+        </w>
+        <w xml:id="doc.p.1.s.4.w.17">
+          <t offset="334">'s</t>
+          <lemma class="'s"/>
+          <pos class="POS" head="POS"/>
+        </w>
+        <w xml:id="doc.p.1.s.4.w.18">
+          <t offset="337">fastest-growing</t>
+          <lemma class="fastest-growing"/>
+          <pos class="JJ" head="JJ"/>
+        </w>
+        <w xml:id="doc.p.1.s.4.w.19">
+          <t offset="353">major</t>
+          <lemma class="major"/>
+          <pos class="JJ" head="JJ"/>
+        </w>
+        <w xml:id="doc.p.1.s.4.w.20">
+          <t offset="359">economies</t>
+          <lemma class="economy"/>
+          <pos class="NNS" head="NNS"/>
+        </w>
+        <w xml:id="doc.p.1.s.4.w.21">
+          <t offset="368">.</t>
+          <lemma class="."/>
+          <pos class="." head="."/>
+        </w>
+        <entities xml:id="doc.p.1.s.4.entities.1">
+          <entity xml:id="doc.p.1.s.4.entities.1.entity.1" class="DATE">
+            <wref id="doc.p.1.s.4.w.8" t="1978"/>
+          </entity>
+          <entity xml:id="doc.p.1.s.4.entities.1.entity.2" class="LOCATION">
+            <wref id="doc.p.1.s.4.w.10" t="China"/>
+          </entity>
+          <entity xml:id="doc.p.1.s.4.entities.1.entity.3" class="NUMBER">
+            <wref id="doc.p.1.s.4.w.13" t="one"/>
+          </entity>
+        </entities>
+      </s>
+    </p>
+  </text>
+</FoLiA>
