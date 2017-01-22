@@ -9,6 +9,6 @@ You can use the same CoreNLP command line commands, after replacing main class n
 
 * Example:
 
-java -cp "*" -Xmx1g edu.stanford.nlp.pipeline.StanfordCoreNLPFolia -file input.txt.
+java -cp "*" -Xmx1g edu.stanford.nlp.pipeline.StanfordCoreNLPFolia -file input.txt
 
 check http://stanfordnlp.github.io/CoreNLP/cmdline.html for more command line details.
