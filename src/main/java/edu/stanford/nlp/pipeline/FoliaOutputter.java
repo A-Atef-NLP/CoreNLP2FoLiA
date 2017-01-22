@@ -122,12 +122,12 @@ public class FoliaOutputter extends XMLOutputter {
         // create the XML document with the root node pointing to the namespace URL
         //
         Element root = new Element("FoLiA", NAMESPACE_URI);
-/*
-        Element root = new Element("FoLiA", "http://ilk.uvt.nl/folia");
+        //root.addNamespaceDeclaration("xml", NAMESPACE_URI);
+        //Element root = new Element("FoLiA", "http://ilk.uvt.nl/folia");
         root.addAttribute(new Attribute("xlink","http://www.w3.org/1999/xlink"));
+        root.addAttribute(new Attribute("xml:id", "http://www.w3.org/XML/1998/namespace", "untitled"));
         root.addAttribute(new Attribute("version","1.4.0"));
-        root.addAttribute(new Attribute("generator","auto"));
-        */
+        root.addAttribute(new Attribute("generator","CoreNLP"));
 
         Document xmlDoc = new Document(root);
         ProcessingInstruction pi = new ProcessingInstruction("xml-stylesheet",
@@ -184,8 +184,18 @@ public class FoliaOutputter extends XMLOutputter {
     private static Element buildParagraph(CoreMap paragraph, String curNS, String paragraphID, Options options) {
 
         Element paragraphElement = new Element("p", curNS);
-        //paragraphElement.setNamespacePrefix("xml");
-        paragraphElement.addAttribute(new Attribute("id", paragraphID));
+
+       //paragraphElement.setAttributeNS("http://www.w3.org/2000/xmlns/", "xml:id", "http://www.acme.com/schemas");
+        //paragraphElement.addNamespaceDeclaration("xml", curNS);
+       // paragraphElement.setNamespacePrefix("xml");
+
+        Attribute a1 = new Attribute("xml:id", "http://www.w3.org/XML/1998/namespace" ,paragraphID);
+        //a1.setNamespace("xml", curNS);
+        //a1.setLocalName("xml:id");
+
+
+        paragraphElement.addAttribute(a1);
+
 
         // Include Document text
         if (options.includeText) {
@@ -221,7 +231,7 @@ public class FoliaOutputter extends XMLOutputter {
     private static Element buildSentence(CoreMap sentence, String curNS, String sentenceID) {
 
         Element sentElem = new Element("s", curNS);
-        sentElem.addAttribute(new Attribute("id", sentenceID));
+        sentElem.addAttribute(new Attribute("xml:id", "http://www.w3.org/XML/1998/namespace" ,sentenceID));
         Integer lineNumber = sentence.get(CoreAnnotations.LineNumberAnnotation.class);
         if (lineNumber != null) {
             sentElem.addAttribute(new Attribute("line", Integer.toString(lineNumber)));
@@ -331,7 +341,7 @@ public class FoliaOutputter extends XMLOutputter {
 
         Element wordInfo = new Element("w", curNS);
 
-        wordInfo.addAttribute(new Attribute("id", wordID));
+        wordInfo.addAttribute(new Attribute("xml:id", "http://www.w3.org/XML/1998/namespace", wordID));
 
         HashMap<String, String> wordAttr = new HashMap<>();
 
@@ -348,14 +358,15 @@ public class FoliaOutputter extends XMLOutputter {
             setInlineElement(wordInfo, "pos", curNS, token.get(CoreAnnotations.PartOfSpeechAnnotation.class));
         }
 
-        /*
+        /* AAtef removed this. Ner is in sentance level
         if (token.containsKey(CoreAnnotations.NamedEntityTagAnnotation.class)) {
             setInlineElement(wordInfo, "NER", curNS, token.get(CoreAnnotations.NamedEntityTagAnnotation.class));
         }
-       */
+
         if (token.containsKey(CoreAnnotations.NormalizedNamedEntityTagAnnotation.class)) {
             setInlineElement(wordInfo, "NormalizedNER", curNS, token.get(CoreAnnotations.NormalizedNamedEntityTagAnnotation.class));
         }
+        */
 
         if (token.containsKey(CoreAnnotations.SpeakerAnnotation.class)) {
             setInlineElement(wordInfo, "Speaker", curNS, token.get(CoreAnnotations.SpeakerAnnotation.class));
@@ -417,7 +428,7 @@ public class FoliaOutputter extends XMLOutputter {
     private static Element buildEntities(CoreMap sentence, String entitiesID, String curNS) {
 
         Element entitiesElem = new Element("entities", curNS);
-        entitiesElem.addAttribute(new Attribute("id", entitiesID));
+        entitiesElem.addAttribute(new Attribute("xml:id", "http://www.w3.org/XML/1998/namespace", entitiesID));
 
         // add the word table with all token-level annotations
         //Element wordTable = new Element("tokens", NAMESPACE_URI);
@@ -430,7 +441,7 @@ public class FoliaOutputter extends XMLOutputter {
                 if(nerValue.equalsIgnoreCase("O")) continue;
 
                 Element entity = new Element("entity", curNS);
-                entity.addAttribute(new Attribute("id", entitiesID + ".entity." + entityCounter));
+                entity.addAttribute(new Attribute("xml:id", "http://www.w3.org/XML/1998/namespace", entitiesID + ".entity." + entityCounter));
                 entity.addAttribute(new Attribute("class",nerValue));
 
                 Element wref = new Element("wref", curNS);
