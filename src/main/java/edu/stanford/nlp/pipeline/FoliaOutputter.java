@@ -115,7 +115,7 @@ public class FoliaOutputter extends XMLOutputter {
         //root.addAttribute(new Attribute("xmlns:xlink", NAMESPACE_URI, "http://www.w3.org/1999/xlink"));
         root.addAttribute(new Attribute("xml:id", "http://www.w3.org/XML/1998/namespace", "untitled"));
         root.addAttribute(new Attribute("version","1.4.0"));
-        root.addAttribute(new Attribute("generator","CoreNLP"));
+        root.addAttribute(new Attribute("generator","CoreNLP2FoLiA"));
 
         Document xmlDoc = new Document(root);
         ProcessingInstruction pi = new ProcessingInstruction("xml-stylesheet",
@@ -356,11 +356,13 @@ public class FoliaOutputter extends XMLOutputter {
         }
         */
 
+
+        /* A.Atef remove below. We need to know how FoLiA will support them.
+
         if (token.containsKey(CoreAnnotations.SpeakerAnnotation.class)) {
             setInlineElement(wordInfo, "Speaker", curNS, token.get(CoreAnnotations.SpeakerAnnotation.class));
         }
 
-        /* A.Atef remove
         if (token.containsKey(TimeAnnotations.TimexAnnotation.class)) {
             Timex timex = token.get(TimeAnnotations.TimexAnnotation.class);
             Element timexElem = new Element("Timex", curNS);
