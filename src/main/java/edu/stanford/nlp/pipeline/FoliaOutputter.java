@@ -59,18 +59,6 @@ public class FoliaOutputter extends XMLOutputter {
 
 
     protected static void addFoliaMetadata(Element tokenElement) {
-        /*<metadata type="native">
-    <annotations>
-      <token-annotation annotator="Nawwar" annotatortype="manual"/>
-      <phonological-annotation annotator="Nawwar" annotatortype="manual" set="adhoc"/>
-      <morphological-annotation annotator="Nawwar" annotatortype="manual" set="adhoc"/>
-      <pos-annotation annotator="Nawwar" annotatortype="manual" set="adhoc"/>
-      <lemma-annotation annotator="Nawwar" annotatortype="manual" set="lemmas-nl"/>
-      <entity-annotation annotator="Nawwar" annotatortype="manual" set="https://raw.githubusercontent.com/proycon/folia/master/setdefinitions/namedentities.foliaset.xml"/>
-    </annotations>
-    <meta id="language">en</meta>
-  </metadata>
-                */
 
         Element metadata = new Element("metadata", NAMESPACE_URI);
 
@@ -122,9 +110,9 @@ public class FoliaOutputter extends XMLOutputter {
         // create the XML document with the root node pointing to the namespace URL
         //
         Element root = new Element("FoLiA", NAMESPACE_URI);
-        //root.addNamespaceDeclaration("xml", NAMESPACE_URI);
+        root.addNamespaceDeclaration("xlink", "http://www.w3.org/1999/xlink");
         //Element root = new Element("FoLiA", "http://ilk.uvt.nl/folia");
-        root.addAttribute(new Attribute("xlink","http://www.w3.org/1999/xlink"));
+        //root.addAttribute(new Attribute("xmlns:xlink", NAMESPACE_URI, "http://www.w3.org/1999/xlink"));
         root.addAttribute(new Attribute("xml:id", "http://www.w3.org/XML/1998/namespace", "untitled"));
         root.addAttribute(new Attribute("version","1.4.0"));
         root.addAttribute(new Attribute("generator","CoreNLP"));
@@ -372,6 +360,7 @@ public class FoliaOutputter extends XMLOutputter {
             setInlineElement(wordInfo, "Speaker", curNS, token.get(CoreAnnotations.SpeakerAnnotation.class));
         }
 
+        /* A.Atef remove
         if (token.containsKey(TimeAnnotations.TimexAnnotation.class)) {
             Timex timex = token.get(TimeAnnotations.TimexAnnotation.class);
             Element timexElem = new Element("Timex", curNS);
@@ -380,6 +369,7 @@ public class FoliaOutputter extends XMLOutputter {
             timexElem.appendChild(timex.value());
             wordInfo.appendChild(timexElem);
         }
+
 
         if (token.containsKey(CoreAnnotations.TrueCaseAnnotation.class)) {
             Element cur = new Element("TrueCase", curNS);
@@ -403,6 +393,7 @@ public class FoliaOutputter extends XMLOutputter {
             cur.appendChild(token.get(CoreAnnotations.WikipediaEntityAnnotation.class));
             wordInfo.appendChild(cur);
         }
+        */ //A.Atef Remove End
 
 //    IntTuple corefDest;
 //    if((corefDest = label.get(CorefDestAnnotation.class)) != null){
