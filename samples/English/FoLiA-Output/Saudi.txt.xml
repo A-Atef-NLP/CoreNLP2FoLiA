@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="folia2html.xsl" type="text/xsl"?>
-<FoLiA xmlns="http://ilk.uvt.nl/folia">
+<FoLiA xml:id="untitled" version="1.4.0" generator="CoreNLP" xmlns="http://ilk.uvt.nl/folia" xmlns:xlink="http://www.w3.org/1999/xlink">
   <metadata>
     <annotations>
       <token-annotation annotator="CoreNLP" annotatortype="auto"/>
@@ -10,7 +10,7 @@
       <lemma-annotation annotator="CoreNLP" annotatortype="auto"/>
       <entity-annotation annotator="CoreNLP" annotatortype="auto"/>
     </annotations>
-    <meta xml:id="language">en</meta>
+    <meta id="language">en</meta>
   </metadata>
   <text>
     <p xml:id="doc.p.1">
@@ -212,15 +212,11 @@
           <t offset="142">April</t>
           <lemma class="April"/>
           <pos class="NNP" head="NNP"/>
-          <NormalizedNER class="2010-04"/>
-          <Timex tid="t1" type="DATE">2010-04</Timex>
         </w>
         <w xml:id="doc.p.1.s.3.w.9">
           <t offset="148">2010</t>
           <lemma class="2010"/>
           <pos class="CD" head="CD"/>
-          <NormalizedNER class="2010-04"/>
-          <Timex tid="t1" type="DATE">2010-04</Timex>
         </w>
         <w xml:id="doc.p.1.s.3.w.10">
           <t offset="153">census</t>
@@ -236,7 +232,6 @@
           <t offset="164">27,136,977</t>
           <lemma class="27,136,977"/>
           <pos class="CD" head="CD"/>
-          <NormalizedNER class="2.7136977E7"/>
         </w>
         <w xml:id="doc.p.1.s.3.w.13">
           <t offset="174">:</t>
@@ -247,7 +242,6 @@
           <t offset="176">18,707,576</t>
           <lemma class="18,707,576"/>
           <pos class="CD" head="CD"/>
-          <NormalizedNER class="1.8707576E7"/>
         </w>
         <w xml:id="doc.p.1.s.3.w.15">
           <t offset="187">Saudi</t>
@@ -268,7 +262,6 @@
           <t offset="207">8,429,401</t>
           <lemma class="8,429,401"/>
           <pos class="CD" head="CD"/>
-          <NormalizedNER class="8429401.0"/>
         </w>
         <w xml:id="doc.p.1.s.3.w.19">
           <t offset="217">non-nationals</t>

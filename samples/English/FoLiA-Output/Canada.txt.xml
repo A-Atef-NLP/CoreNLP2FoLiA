@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="folia2html.xsl" type="text/xsl"?>
-<FoLiA xmlns="http://ilk.uvt.nl/folia">
+<FoLiA xml:id="untitled" version="1.4.0" generator="CoreNLP" xmlns="http://ilk.uvt.nl/folia" xmlns:xlink="http://www.w3.org/1999/xlink">
   <metadata>
     <annotations>
       <token-annotation annotator="CoreNLP" annotatortype="auto"/>
@@ -10,7 +10,7 @@
       <lemma-annotation annotator="CoreNLP" annotatortype="auto"/>
       <entity-annotation annotator="CoreNLP" annotatortype="auto"/>
     </annotations>
-    <meta xml:id="language">en</meta>
+    <meta id="language">en</meta>
   </metadata>
   <text>
     <p xml:id="doc.p.1">
@@ -158,7 +158,6 @@
           <t offset="124">ten</t>
           <lemma class="ten"/>
           <pos class="CD" head="CD"/>
-          <NormalizedNER class="10.0"/>
         </w>
         <w xml:id="doc.p.1.s.2.w.6">
           <t offset="128">provinces</t>
@@ -174,7 +173,6 @@
           <t offset="142">three</t>
           <lemma class="three"/>
           <pos class="CD" head="CD"/>
-          <NormalizedNER class="3.0"/>
         </w>
         <w xml:id="doc.p.1.s.2.w.9">
           <t offset="148">territories</t>
@@ -233,13 +231,11 @@
           <t offset="194">36</t>
           <lemma class="36"/>
           <pos class="CD" head="CD"/>
-          <NormalizedNER class="~3.6E7"/>
         </w>
         <w xml:id="doc.p.1.s.3.w.8">
           <t offset="197">million</t>
           <lemma class="million"/>
           <pos class="CD" head="CD"/>
-          <NormalizedNER class="~3.6E7"/>
         </w>
         <w xml:id="doc.p.1.s.3.w.9">
           <t offset="205">people</t>

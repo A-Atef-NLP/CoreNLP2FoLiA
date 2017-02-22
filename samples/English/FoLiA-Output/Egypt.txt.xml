@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="folia2html.xsl" type="text/xsl"?>
-<FoLiA xmlns="http://ilk.uvt.nl/folia">
+<FoLiA xml:id="untitled" version="1.4.0" generator="CoreNLP" xmlns="http://ilk.uvt.nl/folia" xmlns:xlink="http://www.w3.org/1999/xlink">
   <metadata>
     <annotations>
       <token-annotation annotator="CoreNLP" annotatortype="auto"/>
@@ -10,7 +10,7 @@
       <lemma-annotation annotator="CoreNLP" annotatortype="auto"/>
       <entity-annotation annotator="CoreNLP" annotatortype="auto"/>
     </annotations>
-    <meta xml:id="language">en</meta>
+    <meta id="language">en</meta>
   </metadata>
   <text>
     <p xml:id="doc.p.1">
@@ -116,13 +116,11 @@
           <t offset="77">92</t>
           <lemma class="92"/>
           <pos class="CD" head="CD"/>
-          <NormalizedNER class="&gt;9.2E7"/>
         </w>
         <w xml:id="doc.p.1.s.3.w.4">
           <t offset="80">million</t>
           <lemma class="million"/>
           <pos class="CD" head="CD"/>
-          <NormalizedNER class="&gt;9.2E7"/>
         </w>
         <w xml:id="doc.p.1.s.3.w.5">
           <t offset="88">inhabitants</t>
@@ -371,8 +369,6 @@
           <t offset="310">1922</t>
           <lemma class="1922"/>
           <pos class="CD" head="CD"/>
-          <NormalizedNER class="1922"/>
-          <Timex tid="t1" type="DATE">1922</Timex>
         </w>
         <w xml:id="doc.p.1.s.5.w.9">
           <t offset="314">.</t>

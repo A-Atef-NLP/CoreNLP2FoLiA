@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="folia2html.xsl" type="text/xsl"?>
-<FoLiA xmlns="http://ilk.uvt.nl/folia">
+<FoLiA xml:id="untitled" version="1.4.0" generator="CoreNLP" xmlns="http://ilk.uvt.nl/folia" xmlns:xlink="http://www.w3.org/1999/xlink">
   <metadata>
     <annotations>
       <token-annotation annotator="CoreNLP" annotatortype="auto"/>
@@ -10,7 +10,7 @@
       <lemma-annotation annotator="CoreNLP" annotatortype="auto"/>
       <entity-annotation annotator="CoreNLP" annotatortype="auto"/>
     </annotations>
-    <meta xml:id="language">en</meta>
+    <meta id="language">en</meta>
   </metadata>
   <text>
     <p xml:id="doc.p.1">
@@ -131,15 +131,11 @@
           <t offset="89">June</t>
           <lemma class="June"/>
           <pos class="NNP" head="NNP"/>
-          <NormalizedNER class="2013-06"/>
-          <Timex tid="t1" type="DATE">2013-06</Timex>
         </w>
         <w xml:id="doc.p.1.s.2.w.3">
           <t offset="94">2013</t>
           <lemma class="2013"/>
           <pos class="CD" head="CD"/>
-          <NormalizedNER class="2013-06"/>
-          <Timex tid="t1" type="DATE">2013-06</Timex>
         </w>
         <w xml:id="doc.p.1.s.2.w.4">
           <t offset="98">,</t>
@@ -175,13 +171,11 @@
           <t offset="128">80.6</t>
           <lemma class="80.6"/>
           <pos class="CD" head="CD"/>
-          <NormalizedNER class="8.06E7"/>
         </w>
         <w xml:id="doc.p.1.s.2.w.11">
           <t offset="133">million</t>
           <lemma class="million"/>
           <pos class="CD" head="CD"/>
-          <NormalizedNER class="8.06E7"/>
         </w>
         <w xml:id="doc.p.1.s.2.w.12">
           <t offset="141">people</t>
@@ -256,7 +250,6 @@
           <t offset="189">second</t>
           <lemma class="second"/>
           <pos class="JJ" head="JJ"/>
-          <NormalizedNER class="2.0"/>
         </w>
         <w xml:id="doc.p.1.s.3.w.10">
           <t offset="196">most</t>
@@ -328,15 +321,11 @@
           <t offset="248">the</t>
           <lemma class="the"/>
           <pos class="DT" head="DT"/>
-          <NormalizedNER class="PXY"/>
-          <Timex tid="t2" type="DURATION">PXY</Timex>
         </w>
         <w xml:id="doc.p.1.s.4.w.3">
           <t offset="252">years</t>
           <lemma class="year"/>
           <pos class="NNS" head="NNS"/>
-          <NormalizedNER class="PXY"/>
-          <Timex tid="t2" type="DURATION">PXY</Timex>
         </w>
         <w xml:id="doc.p.1.s.4.w.4">
           <t offset="258">A.D.</t>
@@ -347,7 +336,6 @@
           <t offset="263">900</t>
           <lemma class="900"/>
           <pos class="CD" head="CD"/>
-          <NormalizedNER class="900.0"/>
         </w>
         <w xml:id="doc.p.1.s.4.w.6">
           <t offset="267">until</t>
@@ -358,8 +346,6 @@
           <t offset="273">1806</t>
           <lemma class="1806"/>
           <pos class="CD" head="CD"/>
-          <NormalizedNER class="1806"/>
-          <Timex tid="t3" type="DATE">1806</Timex>
         </w>
         <w xml:id="doc.p.1.s.4.w.8">
           <t offset="277">,</t>

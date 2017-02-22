@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="folia2html.xsl" type="text/xsl"?>
-<FoLiA xmlns="http://ilk.uvt.nl/folia">
+<FoLiA xml:id="untitled" version="1.4.0" generator="CoreNLP" xmlns="http://ilk.uvt.nl/folia" xmlns:xlink="http://www.w3.org/1999/xlink">
   <metadata>
     <annotations>
       <token-annotation annotator="CoreNLP" annotatortype="auto"/>
@@ -10,7 +10,7 @@
       <lemma-annotation annotator="CoreNLP" annotatortype="auto"/>
       <entity-annotation annotator="CoreNLP" annotatortype="auto"/>
     </annotations>
-    <meta xml:id="language">en</meta>
+    <meta id="language">en</meta>
   </metadata>
   <text>
     <p xml:id="doc.p.1">
@@ -142,13 +142,11 @@
           <t offset="106">1.381</t>
           <lemma class="1.381"/>
           <pos class="CD" head="CD"/>
-          <NormalizedNER class="&gt;$1.381E9"/>
         </w>
         <w xml:id="doc.p.1.s.2.w.7">
           <t offset="112">billion</t>
           <lemma class="billion"/>
           <pos class="CD" head="CD"/>
-          <NormalizedNER class="&gt;$1.381E9"/>
         </w>
         <w xml:id="doc.p.1.s.2.w.8">
           <t offset="119">,</t>
@@ -353,8 +351,6 @@
           <t offset="295">1978</t>
           <lemma class="1978"/>
           <pos class="CD" head="CD"/>
-          <NormalizedNER class="1978"/>
-          <Timex tid="t1" type="DATE">1978</Timex>
         </w>
         <w xml:id="doc.p.1.s.4.w.9">
           <t offset="299">,</t>
@@ -380,7 +376,6 @@
           <t offset="318">one</t>
           <lemma class="one"/>
           <pos class="CD" head="CD"/>
-          <NormalizedNER class="1.0"/>
         </w>
         <w xml:id="doc.p.1.s.4.w.14">
           <t offset="322">of</t>
